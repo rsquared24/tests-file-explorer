@@ -1,9 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import App, { Factory, File, Folder } from './App';
 
-test('renders App component', () => {
-  render(<App />);
-
+describe("All", () => {
   test('renders App component', () => {
     render(<App />);
     expect(screen.getByText('src')).toBeInTheDocument();
