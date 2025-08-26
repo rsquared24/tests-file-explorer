@@ -1,4 +1,3 @@
-import './App.css'
 import { useState } from 'react';
 import { Box, Stack, Typography } from "@mui/material";
 import { InsertDriveFile as FileIcon, ArrowRight as ArrowRightIcon, ArrowDropDown as ArrowDownIcon } from "@mui/icons-material";
